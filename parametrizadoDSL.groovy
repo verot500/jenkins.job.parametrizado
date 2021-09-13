@@ -1,5 +1,5 @@
 job('ejemplo-Nuevo-job-DSL') {
-  description('Job DSL de ejemplo para el curso de Jenkins')
+  description('Job DSL de ejemplo para el curso de Jenkins Veronica Tapia')
   scm {
     git('https://github.com/verot500/jenkins.job.parametrizado.git', 'main') { node ->
       node / gitConfigName('verot500')
